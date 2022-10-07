@@ -7,7 +7,7 @@ SDK_DIR=$SCRIPT_DIR/sdk
 NDK_DIR=$SCRIPT_DIR/android-ndk-r25b
 mkdir -p $SDK_DIR
 
-if [[ ! -d $SDK_DIR]]; then
+if [[ ! -d $SDK_DIR ]]; then
   mkdir -p $SDK_DIR/tools
   cd $SDK_DIR/tools
   curl -LO https://dl.google.com/android/repository/commandlinetools-linux-8512546_latest.zip
