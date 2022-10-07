@@ -5,7 +5,6 @@ IFS=$'\n\t'
 SCRIPT_DIR=$(realpath ${0%/*})
 SDK_DIR=$SCRIPT_DIR/sdk
 NDK_DIR=$SCRIPT_DIR/android-ndk-r25b
-mkdir -p $SDK_DIR
 
 if [[ ! -d $SDK_DIR ]]; then
   mkdir -p $SDK_DIR/tools
